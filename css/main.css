@@ -11,7 +11,6 @@
 */
 
 
-
 /*  Fonts  */
 @font-face {
     font-family: 'raleway-regular';
@@ -224,7 +223,7 @@ header.dark nav ul li a:hover{
 }
 
 .article div p{
-   color: #838181;
+    color: #838181;
     font-family: "raleway-regular";
     font-size: 14px;
     line-height: 28px;
@@ -232,6 +231,16 @@ header.dark nav ul li a:hover{
     letter-spacing: .5px;
 }
 
+.article div p.caption{
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFBF40;
+}
+
+/*   object   */
+object{
+  margin-top: -50px;
+}
 
 /*     epilogue     */
 .epilogue div{
