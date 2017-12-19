@@ -23,6 +23,7 @@
 </head>
 <body>
 
+
 	<section class="billboard light">
 		<header class="wrapper light">
 			<nav>
@@ -33,101 +34,113 @@
 		</header>
 
 		<div class="caption light animated wow fadeInDown clearfix">
-			<div class="prologue">
-				<p>대학생 T양은 이번 주에 시험이 2개, 제출해야 할 기말과제가 3개있다. 미리 공부와 과제를 하지 못한 자신을 탓하며 T양은 오늘도 밤을 샐 것을 다짐한다.</p>
-				<p>하지만 새벽 1시에서 2시가 되면 이야기는 달라진다. 새벽 2시는 가장 감성적인 시간이기 때문.</p>
-				<p>공부를 하던 T양은 100세 시대가 도래한 지금, 시험 한 번 못 본다고 자신의 삶이 크게 달라지지 않는다는 사실을 깨닫는다. 그렇게 잠깐만 침대에 누워서 생각을 정리하려고 한 T양이 눈을 감았다 떴을 때는 이미 아침. T양은 SNS에 접속하여 몇 마디 문장을 작성한다.</p>
+			<div>
+				<p>대학생 T양은 이번 주에 시험이 2개, 제출해야 할 기말과제가 3개있다. <br>
+				미리 공부와 과제를 하지 못한 자신을 탓하며 T양은 오늘도 밤을 샐 것을 다짐한다.<br>
+				하지만 새벽 1시에서 2시가 되면 이야기는 달라진다. <br>
+				새벽 2시는 가장 감성적인 시간이기 때문.<br>
+				공부를 하던 T양은 100세 시대가 도래한 지금, 시험 한 번 못 본다고 자신의 삶이 크게 달라지지 않는다는 사실을 깨닫는다. 그렇게 잠깐만 침대에 누워서 생각을 정리하려고 한 T양이 눈을 감았다 떴을 때는 이미 아침. T양은 SNS에 접속하여 몇 마디 문장을 작성한다.
+				</p>
 				<p style="font-size: 18px">"씨발..."</p>
 			</div>
 		</div>
 
-		<div class="bridge animated wow fadeInDown" style="margin:200px" width="50%">
-			<hr style="margin: 30px 45%" color="#000">
-			<p>위의 이야기는 빅데이터를 바탕으로 재구성한 가상 인물의 이야기다. 어떠한가? 여러분은 이와 크게 다른 삶을 살고 있는 지 묻고 싶다.</p>
-			<p><img src="img/down_arrow.png" alt="down arrow" class="img-circle" width="50px" style="margin:10px"></p>
+		<div class="bridge animated wow fadeInDown" style="margin:100px" width="50%">
+			<hr style="margin: 30px 45%">
+			<p>위의 이야기는 빅데이터를 바탕으로 재구성한 가상 인물의 이야기다.
+				당신도 별반 다르지 않다고? 낙담할 필요 없다. <br>
+				시험기간 당신의 이야기이자 모두의 이야기를 트위터 데이터로 살펴본다</p>
+			<p style="color:#000; font-weight:bolder; font-size:30px; margin-top:50px">대학생 시험기간 실태 보고서 확인하기</p>
+			<p><button onclick="myFunction()">
+				<img src="img/down_arrow.png" alt="down arrow" class="img-circle" width="50px" style="margin:10px">
+			</button></p>
 		</div>
 	</section><!--  End billboard  -->
 
 
-	<section class="comment wrapper">
-		<div class="clearfix animated wow fadeInDown">
-			<p>
-				<img src="img/quotes.png" alt="" class="quotes"/>
-				취재진은 SNS를 통해 대학생의 시험기간을 알아보고자 ‘시험’, ‘과제’, ‘교수’, ‘종강’의 4가지 단어가 최소 1개 이상 포함된 트윗을 수집했다. 위의 네 가지 단어는 대학생의 시험기간을 잘 들여 볼 수 있는 매개어가 될 것이다. 데이터의 수집은 일반적으로 기말고사 ‘피크’시즌인 12월 7일 오후 6시부터 13일 오후 3시까지 진행되었으며 처리할 수 있는 데이터의 크기가 한정되어 있어 매 10분마다 3분씩 수집이 진행되었고, 총 30%의 표본 데이터를 수집했다.
-			</p>
-		</div>
-	</section>
-	<!-- End of Comment -->
+
+	<div id="article_doc">
+		<section class="comment wrapper" id="comment1">
+			<div class="clearfix animated wow fadeInDown">
+				<p>
+					<img src="img/quotes.png" alt="" class="quotes"/>
+					취재진은 SNS를 통해 대학생의 시험기간을 알아보고자 ‘시험’, ‘과제’, ‘교수’, ‘종강’의 4가지 단어가 최소 1개 이상 포함된 트윗을 수집했다. 위의 네 가지 단어는 대학생의 시험기간을 잘 들여 볼 수 있는 매개어가 될 것이다. 데이터의 수집은 일반적으로 기말고사 ‘피크’시즌인 12월 7일 오후 6시부터 13일 오후 3시까지 진행되었으며 처리할 수 있는 데이터의 크기가 한정되어 있어 매 10분마다 3분씩 수집이 진행되었고, 총 30%의 표본 데이터를 수집했다.
+				</p>
+			</div>
+		</section>
+		<!-- End of Comment -->
 
 
-	<section class="article wrapper">
-		<div>
-			<center>
-				<p style="margin-bottom:10px" class="caption clearfix animated wow fadeInDown">각 시간대 위에 마우스를 올리면 정확한 수치를 확인할 수 있습니다</p>
-				<iframe src="https://public.tableau.com/views/ver_1/totalfreq?:tabs=no&:showVizHome=no&:embed=y&:display_count=yes&publish=yes" width="550" height="550" frameborder="0"></iframe>
-			</center>
-			<p class="clearfix animated wow fadeInDown">위의 표를 보면 시험기간 대학생들의 트윗이 시간대별로 어떻게 이루어지는 지를 알 수 있다. 그 중에서 가장 두드러지는 특징은 야간에 나타난다. 저녁 5시를 기점으로 폭발적으로 증가하는 트윗은 다음날 새벽 2시가 되면 서서히 줄어드는 것을 알 수 있다. 저녁부터 밤샘할 것을 다짐하던 학생들이 두 시가 되면 자취를 감추는 모습을 확인할 수 있기 때문이다. 물론 이 많은 학생들이 공부에 집중하느라 트윗을 하지 않는다는 가정도 배제할 수 없다. 이를 알아보기 위해 취재진은 조금 더 자세히 분석을 진행했다.</p>
-			<center><iframe src="https://public.tableau.com/views/ver_1/WCam5?:tabs=no&:showVizHome=no&:embed=y&:display_count=yes&publish=yes" width="600" height="400" frameborder="0"></iframe></center>
-			<center><iframe src="https://public.tableau.com/views/ver_1/WCam6?:tabs=no&:showVizHome=no&:embed=y&:display_count=yes&publish=yes" width="600" height="400" frameborder="0"></iframe></center>
-			<p class="clearfix animated wow fadeInDown">위의 워드클라우드는 오전 5시와 오전 6시에 올라온 트윗을 바탕으로 가장 많이 등장한 단어들을 시각화한 것이다. 6시가 되면 상대적으로 트윗의 양이 증가함과 동시에 ‘씨발’이 포함된 트윗의 양이 폭발적으로 증가한다는 사실을 알 수 있다. ‘씨발 시험 나 존나 한 것도 없는데…’ , ‘전공과제 진짜 노답이네 씨발… 안해’ , ‘해떴네 씨발…’ 등 대학생들은 포기하고 잠든 자신에 대해 거친 생각과 불안한 느낌과 후회하는 모습을 보이는 것이다. 여기서 가장 중요한 점은, 이러한 밤샘의 굴레가 무한히 반복된다는 것이다.</p>
-			<p class="clearfix animated wow fadeInDown">토요일에 접어들면 트윗의 양은 현저히 줄어든다. 대학생들이 ‘시험’과 ‘과제’를 잠시 놓은 것처럼 보인다. 하지만 일요일이 되면 사정이 달라진다. 학생들이 싫어하는 노래 1위를 차지했던 개그콘서트 엔딩곡을 기억하는가? 일요일 밤이 되면 트윗의 양이 일주일 중 최고점에 안착한다. 이는 다가오는 월요일을 비롯한 다음 주 주중의 일정에 대한 걱정이 폭발한다는 것을 보여준다.</p>
-		</div>
-	</section>
-	<!-- End of Article part 1 -->
+		<section class="article wrapper">
+			<div>
+				<center>
+					<p id="tableau1" style="margin-bottom:10px" class="caption clearfix animated wow fadeInDown">각 시간대 위에 마우스를 올리면 정확한 수치를 확인할 수 있습니다</p>
+					<iframe class="clearfix animated wow fadeInDown" src="https://public.tableau.com/views/ver_1/totalfreq?:tabs=no&:showVizHome=no&:embed=y&:display_count=yes&publish=yes" width="550" height="550" frameborder="0"></iframe>
+				</center>
+				<p class="clearfix animated wow fadeInDown">위의 표를 보면 시험기간 대학생들의 트윗이 시간대별로 어떻게 이루어지는 지를 알 수 있다. 그 중에서 가장 두드러지는 특징은 야간에 나타난다. 저녁 5시를 기점으로 폭발적으로 증가하는 트윗은 다음날 새벽 2시가 되면 서서히 줄어드는 것을 알 수 있다. 저녁부터 밤샘할 것을 다짐하던 학생들이 두 시가 되면 자취를 감추는 모습을 확인할 수 있기 때문이다. 물론 이 많은 학생들이 공부에 집중하느라 트윗을 하지 않는다는 가정도 배제할 수 없다. 이를 알아보기 위해 취재진은 조금 더 자세히 분석을 진행했다.</p>
+				<center><iframe class="clearfix animated wow fadeInDown" src="https://public.tableau.com/views/ver_1/WCam5?:tabs=no&:showVizHome=no&:embed=y&:display_count=yes&publish=yes" width="600" height="400" frameborder="0"></iframe></center>
+				<center><iframe class="clearfix animated wow fadeInDown" src="https://public.tableau.com/views/ver_1/WCam6?:tabs=no&:showVizHome=no&:embed=y&:display_count=yes&publish=yes" width="600" height="400" frameborder="0"></iframe></center>
+				<p class="clearfix animated wow fadeInDown">위의 워드클라우드는 오전 5시와 오전 6시에 올라온 트윗을 바탕으로 가장 많이 등장한 단어들을 시각화한 것이다. 6시가 되면 상대적으로 트윗의 양이 증가함과 동시에 ‘씨발’이 포함된 트윗의 양이 폭발적으로 증가한다는 사실을 알 수 있다. ‘씨발 시험 나 존나 한 것도 없는데…’ , ‘전공과제 진짜 노답이네 씨발… 안해’ , ‘해떴네 씨발…’ 등 대학생들은 포기하고 잠든 자신에 대해 거친 생각과 불안한 느낌과 후회하는 모습을 보이는 것이다. 여기서 가장 중요한 점은, 이러한 밤샘의 굴레가 무한히 반복된다는 것이다.</p>
+				<p class="clearfix animated wow fadeInDown">토요일에 접어들면 트윗의 양은 현저히 줄어든다. 대학생들이 ‘시험’과 ‘과제’를 잠시 놓은 것처럼 보인다. 하지만 일요일이 되면 사정이 달라진다. 학생들이 싫어하는 노래 1위를 차지했던 개그콘서트 엔딩곡을 기억하는가? 일요일 밤이 되면 트윗의 양이 일주일 중 최고점에 안착한다. 이는 다가오는 월요일을 비롯한 다음 주 주중의 일정에 대한 걱정이 폭발한다는 것을 보여준다.</p>
+			</div>
+		</section>
+		<!-- End of Article part 1 -->
 
-	<section class="block">
-	</section>
-	<!--  End image block  -->
+		<section class="block">
+		</section>
+		<!--  End image block  -->
 
-	<section class="comment wrapper">
-		<div class="clearfix animated wow fadeInDown">
-			<p>
-				<img src="img/quotes.png" alt="" class="quotes"/>
-앞서 우리는 ‘시험’, ‘과제’, ‘교수, ‘종강’이라는 키워드를 포함한 트윗을 바탕으로 시험기간 대학생의 하루, 대학생의 일주일 루틴을 살펴보았다. 여기서 한발 더 나아가 몇 가지 선택한 단어를 바탕으로 관계도를 재구성해보았다.
-			</p>
-		</div>
-	</section>
-	<!-- End of Comment -->
-
-
-
-	<section class="article wrapper">
-		<div>
-			<p class="caption clearfix animated wow fadeInDown">원 위에 마우스를 올리면 글씨를 더 자세히 볼 수 있습니다</p>
-			<object type="image/svg+xml" data="fword.svg" class="network animated wow fadeInDown">
-				Your browser does not support SVG
-			</object>
-			<p class="clearfix animated wow fadeInDown">
-다음은 여러 욕들의 관계도이다. 욕의 경우 예상이 가능하게도, 자신을 지칭하는 경우가 가장 많았으며 그 다음으로는 수업을 주관하는 교수자에게로 비난의 화살이 쏠려 있는 것을 알 수 있었다. 이에 자연스럽게 시험과 과제에게도 욕의 지분이 뒤따라오는 것을 확인할 수 있다. 그로 인해 욕을 검색한 트윗에서도 ‘시험’, ‘과제’, ‘끝’, ‘교수’라는 단어의 빈도수가 상당히 많이 나타나는 것을 확인 할 수 있었다. 자발적이고 의욕적으로 본 프로젝트를 진행하고 있는 취재진의 입장에서는 다소 공감하기 어려웠으나 데이터는 거짓말을 하지 않으므로 관련 내용을 수록하였다. 해당 자료의 일부를 봤을 때 ‘과제 새끼’, ‘교수 새끼’가 주를 이루고 있음을 알 수 있었다.
-			</p>
-			<p class="clearfix animated wow fadeInDown">
- 2017년 하반기를 두고 가장 큰 유행을 꼽으라고 하면 ‘급식체’를 배제할 수 없을 것이다. 인터넷 유저들이 주로 사용하던 채팅 문화가 모 TV프로그램에 의해 소개된 것이 폭발적인 반응으로 이어진 것이다. 예시로는 ‘데이터 저널리즘 수업 오지구요’, ‘이준환 교수님 지리구요’ 등을 제시할 수 있겠다. 이렇듯 ‘오지다’, ‘지리다’라는 표현도 많이 쓰이지만 급식체에서는 ‘실화냐?’ 라는 표현을 생략할 수가 없다. ‘실제로 있는 이야기’의 한자어인 ‘실화’를 사용해 자신이 들은 내용이 믿을 수 없을 정도로 충격적이라는 것을 드러내는 표현인 것이다. 그렇다면 시험기간 대학생들이 ‘실화냐?’고 되물을 수 있는 상황은 과연 언제 일까?
-			</p>
-			<p class="caption clearfix animated wow fadeInDown">원 위에 마우스를 올리면 글씨를 더 자세히 볼 수 있습니다</p>
-			<object type="image/svg+xml" data="isitreal.svg" class="animated wow fadeInDown">
-				Your browser does not support SVG
-			</object>
-			<p class="clearfix animated wow fadeInDown">
-해당 표는 ‘실화’라는 단어를 기준으로 재구성한 관계도이다. 이를 자세히 살펴보면 특정 시간을 지칭하여 사용하는 경우가 많다는 것을 알 수 있다. 예를 들면, ‘일요일 밤까지 데이터 저널리즘 포스터 마감 실화냐?’는 표현을 들 수 있을 것이다. 자신이 진행한 내용에 비해 시간이 턱 없이 모자람을 확인할 수 있었다. 또 다른 용례로는 과제의 분량과 시험의 범위가 생각보다 굉장히 많고 넓다는 사실을 자각했음을 들 수 있다. 관계도의 노드를 이어보면 ‘시험 폭탄 ㅠㅠ 실화냐…?’는 문장을 만들 수도 있다.
-			</p>
-		</div>
-	</section>
-	<!-- End of Article part2 -->
+		<section class="comment wrapper">
+			<div class="clearfix animated wow fadeInDown">
+				<p>
+					<img src="img/quotes.png" alt="" class="quotes"/>
+	앞서 우리는 ‘시험’, ‘과제’, ‘교수, ‘종강’이라는 키워드를 포함한 트윗을 바탕으로 시험기간 대학생의 하루, 대학생의 일주일 루틴을 살펴보았다. 여기서 한발 더 나아가 몇 가지 선택한 단어를 바탕으로 관계도를 재구성해보았다.
+				</p>
+			</div>
+		</section>
+		<!-- End of Comment -->
 
 
-	<section class="epilogue wrapper">
-		<div>
-			<p class="clearfix animated wow fadeInDown">
-이렇게 기말고사 ‘피크’기간에 시험기간에 올라온 트윗들을 바탕으로 대학생들의 삶을 들여다보는 시간을 가졌다. 취재진은 대학생들의 공감을 얻기 위해 데이터를 자의적으로 재구성하지 않고 최대한 객관적인 시각으로 바라보고자 노력했다. 그 속에서 우리는 한 사람을 찾아낼 수 있었다. 학기가 시작하면 매 수업마다 예습 복습을 철저히 하고, 과제를 받았을 땐 바로바로 과제를 당일 제출하고자 했지만 결국 시험 전 날,마감 전 날 모든 걸 몰아서 하는 사람. 이 마저도 밤에 눈이 감겨버려서 미쳐 다 하지 못하고 잠드는 사람. 이러한 날들을 시험기간 내내 반복하는 사람을 말이다. 아마 이 글을 읽고 있는 당신도 이와 크게 다르지 않을 확률이 높다. 하지만 그렇다고 해서 좌절할 필요는 없다. 이 글을 읽는 또 다른 사람 역시 당신과 같은 사람이고, 같은 삶의 패턴을 살고 있을 확률이 높기 때문이다. 이에 취재진은 연예인 박명수씨의 말을 빌어 응원의 말을 전하며 마무리를 하고자 한다.
-			</p>
-			<p class="quote clearfix animated wow fadeInDown">
-				<img src="img/quotes.png" alt="" class="quotes"/>
-늦었다고 생각할 때가 가장 늦었다!
-			</p>
-		</div>
-	</section>
-	<!-- End of Epilogue -->
 
+		<section class="article wrapper">
+			<div>
+				<p class="caption clearfix animated wow fadeInDown">원 위에 마우스를 올리면 글씨를 더 자세히 볼 수 있습니다</p>
+				<object type="image/svg+xml" data="fword.svg" class="network animated wow fadeInDown">
+					Your browser does not support SVG
+				</object>
+				<p class="clearfix animated wow fadeInDown">
+	다음은 여러 욕들의 관계도이다. 욕의 경우 예상이 가능하게도, 자신을 지칭하는 경우가 가장 많았으며 그 다음으로는 수업을 주관하는 교수자에게로 비난의 화살이 쏠려 있는 것을 알 수 있었다. 이에 자연스럽게 시험과 과제에게도 욕의 지분이 뒤따라오는 것을 확인할 수 있다. 그로 인해 욕을 검색한 트윗에서도 ‘시험’, ‘과제’, ‘끝’, ‘교수’라는 단어의 빈도수가 상당히 많이 나타나는 것을 확인 할 수 있었다. 자발적이고 의욕적으로 본 프로젝트를 진행하고 있는 취재진의 입장에서는 다소 공감하기 어려웠으나 데이터는 거짓말을 하지 않으므로 관련 내용을 수록하였다. 해당 자료의 일부를 봤을 때 ‘과제 새끼’, ‘교수 새끼’가 주를 이루고 있음을 알 수 있었다.
+				</p>
+				<p class="clearfix animated wow fadeInDown">
+	 2017년 하반기를 두고 가장 큰 유행을 꼽으라고 하면 ‘급식체’를 배제할 수 없을 것이다. 인터넷 유저들이 주로 사용하던 채팅 문화가 모 TV프로그램에 의해 소개된 것이 폭발적인 반응으로 이어진 것이다. 예시로는 ‘데이터 저널리즘 수업 오지구요’, ‘이준환 교수님 지리구요’ 등을 제시할 수 있겠다. 이렇듯 ‘오지다’, ‘지리다’라는 표현도 많이 쓰이지만 급식체에서는 ‘실화냐?’ 라는 표현을 생략할 수가 없다. ‘실제로 있는 이야기’의 한자어인 ‘실화’를 사용해 자신이 들은 내용이 믿을 수 없을 정도로 충격적이라는 것을 드러내는 표현인 것이다. 그렇다면 시험기간 대학생들이 ‘실화냐?’고 되물을 수 있는 상황은 과연 언제 일까?
+				</p>
+				<p class="caption clearfix animated wow fadeInDown">원 위에 마우스를 올리면 글씨를 더 자세히 볼 수 있습니다</p>
+				<object type="image/svg+xml" data="isitreal.svg" class="animated wow fadeInDown">
+					Your browser does not support SVG
+				</object>
+				<p class="clearfix animated wow fadeInDown">
+	해당 표는 ‘실화’라는 단어를 기준으로 재구성한 관계도이다. 이를 자세히 살펴보면 특정 시간을 지칭하여 사용하는 경우가 많다는 것을 알 수 있다. 예를 들면, ‘일요일 밤까지 데이터 저널리즘 포스터 마감 실화냐?’는 표현을 들 수 있을 것이다. 자신이 진행한 내용에 비해 시간이 턱 없이 모자람을 확인할 수 있었다. 또 다른 용례로는 과제의 분량과 시험의 범위가 생각보다 굉장히 많고 넓다는 사실을 자각했음을 들 수 있다. 관계도의 노드를 이어보면 ‘시험 폭탄 ㅠㅠ 실화냐…?’는 문장을 만들 수도 있다.
+				</p>
+			</div>
+		</section>
+		<!-- End of Article part2 -->
+
+
+		<section class="epilogue wrapper">
+			<div>
+				<p class="clearfix animated wow fadeInDown">
+	이렇게 기말고사 ‘피크’기간에 시험기간에 올라온 트윗들을 바탕으로 대학생들의 삶을 들여다보는 시간을 가졌다. 취재진은 대학생들의 공감을 얻기 위해 데이터를 자의적으로 재구성하지 않고 최대한 객관적인 시각으로 바라보고자 노력했다. 그 속에서 우리는 한 사람을 찾아낼 수 있었다. 학기가 시작하면 매 수업마다 예습 복습을 철저히 하고, 과제를 받았을 땐 바로바로 과제를 당일 제출하고자 했지만 결국 시험 전 날,마감 전 날 모든 걸 몰아서 하는 사람. 이 마저도 밤에 눈이 감겨버려서 미쳐 다 하지 못하고 잠드는 사람. 이러한 날들을 시험기간 내내 반복하는 사람을 말이다. 아마 이 글을 읽고 있는 당신도 이와 크게 다르지 않을 확률이 높다. 하지만 그렇다고 해서 좌절할 필요는 없다. 이 글을 읽는 또 다른 사람 역시 당신과 같은 사람이고, 같은 삶의 패턴을 살고 있을 확률이 높기 때문이다. 이에 취재진은 연예인 박명수씨의 말을 빌어 응원의 말을 전하며 마무리를 하고자 한다.
+				</p>
+				<p class="quote clearfix animated wow fadeInDown">
+					<img src="img/quotes.png" alt="" class="quotes"/>
+	늦었다고 생각할 때가 가장 늦었다!
+				</p>
+			</div>
+		</section>
+		<!-- End of Epilogue -->
+
+	</div>
+	<!--   End of Article Document -->
 
 	<footer>
 		<div class="wrapper">
@@ -147,15 +160,14 @@
 		</div>
 	</footer><!--  End footer  -->
 
-	<!-- <script type='text/javascript'>
-	 var divElement = document.getElementById('viz1513637294542');
-	 var vizElement = divElement.getElementsByTagName('object')[0];
-	 vizElement.style.width='100%';
-	 vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-	 var scriptElement = document.createElement('script');
- 	 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-	 vizElement.parentNode.insertBefore(scriptElement, vizElement);
- </script> -->
+	<script type="text/javascript">
+		function myFunction() {
+			document.querySelector('#tableau1').scrollIntoView({
+			  behavior: 'smooth'
+			});
+		}
+
+	</script>
 
 </body>
 </html>
