@@ -1,5 +1,5 @@
 ellipse:hover{
-   fill: #fce57e !important;
+   fill: #93CED2 !important;
  }
 
  ellipse:hover + text{
@@ -11,8 +11,12 @@ ellipse:hover{
 ellipse{
   transition: all 0.5s;
   transform-origin: 50% 50%;
+  fill: #66CCD2 !important;
 }
 text{
   transition: all 1s;
   font-size: 15px !important;
+}
+line{
+  stroke: #C0C0C0 !important;
 }
